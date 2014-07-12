@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 struct Stack {
     var elements = [Character]()
     
@@ -16,6 +17,17 @@ struct Stack {
     }
     
     mutating func pop() -> Character {
-       return elements.removeLast()
+        return elements.removeLast()
+    }
+    
+    
+    static func populatedStack(characters : [Character]) -> Stack {
+        var stack : Stack = Stack()
+        
+        for element in characters {
+            stack.push(element)
+        }
+        
+        return stack
     }
 }
