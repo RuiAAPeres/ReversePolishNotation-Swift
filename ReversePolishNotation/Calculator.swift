@@ -20,7 +20,9 @@ class Calculator {
             var returnedArray : [Double] = array
             switch element {
             case "+" :
-                returnedArray = [returnedArray[1] + returnedArray[0]]
+                returnedArray = [returnedArray[0] + returnedArray[1]]
+            case "-" :
+                returnedArray = [returnedArray[0] - returnedArray[1]]
             default:
                 returnedArray+=element.toDouble()!
             }

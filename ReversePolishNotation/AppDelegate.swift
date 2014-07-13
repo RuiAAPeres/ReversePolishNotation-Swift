@@ -16,9 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         
-        
-        Calculator.evaluateReversePolishNotationExpression("1 2 + 3 + 10 + 20 +")
-        
+        Calculator.evaluateReversePolishNotationExpression("90 3 -")
         
         return true
     }
