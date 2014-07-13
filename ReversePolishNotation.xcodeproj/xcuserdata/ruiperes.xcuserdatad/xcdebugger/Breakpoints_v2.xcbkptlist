@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
             endingLineNumber = "17"
-            landmarkName = "evaluateMathematicalExpression(_:)"
+            landmarkName = "evaluateReversePolishNotationExpression(_:)"
             landmarkType = "5">
             <Locations>
                <Location
@@ -47,22 +47,6 @@
                   offsetFromSymbolStart = "24">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ReversePolishNotation/Calculator.swift"
-            timestampString = "426904478.988988"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "evaluateMathematicalExpression(_:)"
-            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

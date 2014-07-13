@@ -11,10 +11,12 @@ import Foundation
 
 class Calculator {
     
-    func evaluateMathematicalExpression (mathematicalExpression : String) -> () {
-        
-        
-        var x = mathematicalExpression.split().reduce([], combine:{(array : [Double], element : String) in
+    class func evaluateReversePolishNotationExpression (mathematicalExpression : String) -> [Double] {
+        return mathematicalExpression.split().reduce([], combine:Calculator.reversePolishNotationAlgorithm())
+    }
+    
+    class func reversePolishNotationAlgorithm() -> ([Double], String) -> [Double]{
+        return {(array : [Double], element : String) in
             var returnedArray : [Double] = array
             switch element {
             case "+" :
@@ -23,8 +25,6 @@ class Calculator {
                 returnedArray+=element.toDouble()!
             }
             return returnedArray
-            })
-        
-        println(x)
+        }
     }
 }
