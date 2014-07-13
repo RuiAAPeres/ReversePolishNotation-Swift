@@ -13,10 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
 
-
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
-        
-        Calculator.evaluateReversePolishNotationExpression("90 3 -")
         
         return true
     }

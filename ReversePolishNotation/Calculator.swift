@@ -17,15 +17,18 @@ class Calculator {
     
     class func reversePolishNotationAlgorithm() -> ([Double], String) -> [Double]{
         return {(array : [Double], element : String) in
+            
             var returnedArray : [Double] = array
             switch element {
             case "+" :
-                returnedArray = [returnedArray[0] + returnedArray[1]]
+                returnedArray = [returnedArray[0] + returnedArray[1]] + returnedArray[2...returnedArray.count-1]
             case "-" :
                 returnedArray = [returnedArray[0] - returnedArray[1]]
             default:
                 returnedArray+=element.toDouble()!
             }
+            
+            
             return returnedArray
         }
     }

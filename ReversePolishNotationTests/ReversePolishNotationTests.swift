@@ -11,26 +11,18 @@ import XCTest
 
 class ReversePolishNotationTests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testSimpleSum() {
+        var result = Calculator.evaluateReversePolishNotationExpression("1 2 +")
+        XCTAssertEqual(result[0], 3, "Should be 3")
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+    func testThreeNumbersSum() {
+        var result = Calculator.evaluateReversePolishNotationExpression("3 1 2 + +")
+        XCTAssertEqual(result[0], 6, "Should be 6")
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+    func testWithBigNumbersSum() {
+        var result = Calculator.evaluateReversePolishNotationExpression("7 6 5 4 3 2 1 + + + + + +")
+        XCTAssertEqual(result[0], 28, "Should be 28")
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }

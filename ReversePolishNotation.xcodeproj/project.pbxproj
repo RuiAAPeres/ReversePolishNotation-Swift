@@ -12,6 +12,8 @@
 		C764D9841971C1E100E47B32 /* ReversePolishNotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C764D9831971C1E100E47B32 /* ReversePolishNotationTests.swift */; };
 		C764D9901971C9E100E47B32 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C764D98F1971C9E100E47B32 /* Calculator.swift */; };
 		C764D9921971D01900E47B32 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C764D9911971D01900E47B32 /* StringExtensions.swift */; };
+		C764D99319730D2200E47B32 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C764D98F1971C9E100E47B32 /* Calculator.swift */; };
+		C764D99419730DDE00E47B32 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C764D9911971D01900E47B32 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -217,7 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C764D99419730DDE00E47B32 /* StringExtensions.swift in Sources */,
 				C764D9841971C1E100E47B32 /* ReversePolishNotationTests.swift in Sources */,
+				C764D99319730D2200E47B32 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +388,7 @@
 				C764D9891971C1E100E47B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C764D98A1971C1E100E47B32 /* Build configuration list for PBXNativeTarget "ReversePolishNotationTests" */ = {
 			isa = XCConfigurationList;
@@ -392,6 +397,7 @@
 				C764D98C1971C1E100E47B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
