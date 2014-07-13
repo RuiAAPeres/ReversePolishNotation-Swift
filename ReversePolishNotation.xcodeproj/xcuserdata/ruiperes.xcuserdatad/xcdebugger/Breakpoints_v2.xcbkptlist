@@ -2,4 +2,68 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReversePolishNotation/Calculator.swift"
+            timestampString = "426904007.847634"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "evaluateMathematicalExpression(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReversePolishNotation.Calculator.(evaluateMathematicalExpression (ReversePolishNotation.Calculator) -&gt; (Swift.String) -&gt; ()).(closure #1)"
+                  moduleName = "ReversePolishNotation"
+                  urlString = "file:///Users/ruiperes/Documents/GitHub/ReversePolishNotation/ReversePolishNotation/Calculator.swift"
+                  timestampString = "426903338.733434"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "39">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "reabstraction thunk helper from @callee_owned (@owned ObjectiveC.NSArray, @owned Swift.String) -&gt; (@owned ObjectiveC.NSArray) to @callee_owned (@in ObjectiveC.NSArray, @in Swift.String) -&gt; (@out ObjectiveC.NSArray)"
+                  moduleName = "ReversePolishNotation"
+                  urlString = "file:///Users/ruiperes/Documents/GitHub/ReversePolishNotation/ReversePolishNotation/Calculator.swift"
+                  timestampString = "426903338.733655"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReversePolishNotation/Calculator.swift"
+            timestampString = "426904478.988988"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "evaluateMathematicalExpression(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

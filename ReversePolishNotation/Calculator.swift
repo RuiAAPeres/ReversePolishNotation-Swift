@@ -8,14 +8,23 @@
 
 import Foundation
 
-class calculator {
-    let stack : Stack
+
+class Calculator {
     
-    init(mathematicalExpression : [Character]) {
-        stack = Stack.populatedStack(mathematicalExpression)
-    }
-    
-    func evaluateMathematicalExpression () -> Double {
-        return 0
+    func evaluateMathematicalExpression (mathematicalExpression : String) -> () {
+        
+        
+        var x = mathematicalExpression.split().reduce([], combine:{(array : [Double], element : String) in
+            var returnedArray : [Double] = array
+            switch element {
+            case "+" :
+                returnedArray = [returnedArray[1] + returnedArray[0]]
+            default:
+                returnedArray+=element.toDouble()!
+            }
+            return returnedArray
+            })
+        
+        println(x)
     }
 }
