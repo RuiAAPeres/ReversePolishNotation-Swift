@@ -28,7 +28,6 @@ class Calculator {
                 returnedArray+=element.toDouble()!
             }
             
-            
             return returnedArray
         }
     }
