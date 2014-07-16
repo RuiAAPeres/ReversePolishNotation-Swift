@@ -24,6 +24,9 @@ class Calculator {
                 returnedArray = [returnedArray[0] + returnedArray[1]] + returnedArray[2...returnedArray.count-1]
             case "-" :
                 returnedArray = [returnedArray[0] - returnedArray[1]] + returnedArray[2...returnedArray.count-1]
+            case "*" :
+                returnedArray = [returnedArray[0] * returnedArray[1]] + returnedArray[2...returnedArray.count-1]
+                
             default:
                 returnedArray+=element.toDouble()!
             }

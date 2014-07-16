@@ -40,4 +40,19 @@ class ReversePolishNotationTests: XCTestCase {
         var result = Calculator.evaluateReversePolishNotationExpression("40 6 5 4 3 2 1 - - - - - -")
         XCTAssertEqual(result[0], 19, "Should be 19")
     }
+    
+    func testSimpleMultiplication() {
+        var result = Calculator.evaluateReversePolishNotationExpression("1 2 *")
+        XCTAssertEqual(result[0], 2, "Should be 2")
+    }
+    
+    func testThreeNumbersMultiplication() {
+        var result = Calculator.evaluateReversePolishNotationExpression("3 1 2 * *")
+        XCTAssertEqual(result[0], 6, "Should be 6")
+    }
+    
+    func testWithBigNumbersMultiplication() {
+        var result = Calculator.evaluateReversePolishNotationExpression("7 6 5 4 3 2 1 * * * * * *")
+        XCTAssertEqual(result[0], 5040, "Should be 5040")
+    }
 }
